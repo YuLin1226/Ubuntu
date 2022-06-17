@@ -1,3 +1,5 @@
+# Please run this script after you finishing install ros.
+
 cat >>~/.bashrc<<EOF
 
 ### Fast source workspace

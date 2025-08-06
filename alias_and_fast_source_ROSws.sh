@@ -14,7 +14,7 @@ function sourceWS()
         done
         echo "source Workspace: \${name}"
         source \${name}/devel/setup.bash
-        echo "Full ROS_PACKAGE PATH: " $ROS_PACKAGE_PATH
+        echo "Full ROS_PACKAGE PATH: \$ROS_PACKAGE_PATH"
     else
         echo  "[WARNING] Not in a correct directory, source workspace failed."
     fi
